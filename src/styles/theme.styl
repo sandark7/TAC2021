@@ -1,9 +1,10 @@
 // main-color = #A9C6CD
-main-color = #ff4141
-extra-color = #ffee00
+main-color = #A9D588
+extra-color = #346033
 
 li, th, td
 	font-family 'PT Mono', sans-serif
+	color main-color
 
 blockquote
 	font-family 'PT Mono', sans-serif
@@ -23,7 +24,7 @@ blockquote
 	background none
 	height 75px
 	min-width 55px
-	color white
+	color black
 	font-family 'IBM Plex Mono', sans-serif
 	font-size 40px
 	padding-top 0
@@ -47,7 +48,8 @@ blockquote
 		font-weight 100
 		letter-spacing: -3px
 	a
-		color green
+		color main-color
+		
 		&.bottom
 			position absolute
 			bottom 15%
@@ -117,6 +119,7 @@ blockquote
 		h2
 			display inline-block
 			background-color extra-color
+			color white
 			padding 10px 15px 15px
 			font-family 'PT Mono', sans-serif
 			font-size 44px
@@ -125,8 +128,9 @@ blockquote
 				margin-left 0
 				padding 20px 0 30px
 				font-size 62px
-				border 1px solid main-color
-				background none
+				border none
+				background black
+				color main-color
 				letter-spacing -1px
 		&.bg
 			h2

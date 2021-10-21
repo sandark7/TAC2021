@@ -16,9 +16,8 @@
   padding: 0 35px;
   font-size: 25px;
   line-height: 1.8;
-}
-.end-link a {
-  color: #3f56cb;
+  background: #346033;
+  color: #fff;
 }
 .logo {
   width: 150px;
